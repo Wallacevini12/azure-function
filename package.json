@@ -1,0 +1,17 @@
+{
+  "name": "azure-function-unimed-stats",
+  "version": "1.0.0",
+  "description": "Azure Function HTTP Trigger — Estatísticas Unimed",
+  "scripts": {
+    "start": "func start",
+    "build": "tsc",
+    "dev": "func start --typescript"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "azure-functions-core-tools": "^4.0.5455"
+  }
+}
